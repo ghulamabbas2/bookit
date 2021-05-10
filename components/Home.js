@@ -27,7 +27,8 @@ const Home = () => {
     }, [])
 
     const handlePagination = (pageNumber) => {
-        window.location.href = `/?page=${pageNumber}`
+        router.push(`/?page=${pageNumber}`)
+        // window.location.href = `/?page=${pageNumber}`
     }
 
     let count = roomsCount;

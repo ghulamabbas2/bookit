@@ -12,8 +12,10 @@ const Header = () => {
     const { user, loading } = useSelector(state => state.loadedUser)
 
     useEffect(() => {
-        dispatch(loadUser())
-    }, [dispatch])
+        if (!user) {
+            dispatch(loadUser())
+        }
+    }, [dispatch, user])
 
 
     const logoutHandler = () => {
