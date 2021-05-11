@@ -9,7 +9,7 @@ module.exports = {
         STRIPE_WEBHOOK_SECRET: '',
 
         CLOUDINARY_CLOUD_NAME: '',
-        CLOUDINARY_API_KEY: '56153129141456',
+        CLOUDINARY_API_KEY: '',
         CLOUDINARY_API_SECRET: '',
 
         SMTP_HOST: "smtp.mailtrap.io",
