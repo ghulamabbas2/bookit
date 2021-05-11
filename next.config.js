@@ -12,8 +12,8 @@ module.exports = {
         CLOUDINARY_API_KEY: '',
         CLOUDINARY_API_SECRET: '',
 
-        SMTP_HOST: "smtp.mailtrap.io",
-        SMTP_PORT: "2525",
+        SMTP_HOST: "",
+        SMTP_PORT: "",
         SMTP_USER: "",
         SMTP_PASSWORD: "",
         SMTP_FROM_EMAIL: "",
