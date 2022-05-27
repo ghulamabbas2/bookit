@@ -32,7 +32,9 @@ const RoomItem = ({ room }) => {
                     </div>
 
                     <button className="btn btn-block view-btn">
-                        <Link href={`/room/${room._id}`}>View Details</Link>
+                        <Link href={`/room/${room._id}`}>
+                            <a className='text-decoration-none'>View Details</a>
+                        </Link>
                     </button>
                 </div>
             </div>

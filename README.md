@@ -9,6 +9,9 @@ npm run dev
 # or
 yarn dev
 ```
+tPXLU78N2SSKpJGf
+
+mongodb+srv://ghulamabbas_bookit:bookit258@bookit.ghtfw.mongodb.net/bookit?retryWrites=true&w=majority
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 

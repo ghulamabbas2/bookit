@@ -3,14 +3,14 @@ const mongoose = require('mongoose');
 
 const rooms = require('../data/rooms')
 
-mongoose.connect('mongodb+srv://ghulamabbas_bookit:bookit258@bookit.ghtfw.mongodb.net/bookit?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://bookit:tPXLU78N2SSKpJGf@cluster0.w5gm0.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
     useCreateIndex: true
 })
 
-const seedRooms = async () => {
+const seedRooms = async() => {
     try {
 
         await Room.deleteMany();
@@ -29,4 +29,3 @@ const seedRooms = async () => {
 }
 
 seedRooms()
-
