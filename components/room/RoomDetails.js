@@ -166,7 +166,7 @@ const RoomDetails = () => {
                         <Carousel.Item key={image.public_id}>
                             <div style={{ width: '100%', height: '440px' }}>
                                 <Image
-                                    className='d-block m-auto'
+                                    className='d-block m-auto carousel-image'
                                     src={image.url}
                                     alt={room.name}
                                     layout='fill'

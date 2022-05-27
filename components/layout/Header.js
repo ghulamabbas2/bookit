@@ -96,9 +96,15 @@ const Header = () => {
 
                         </div>
                     ) :
-                        !loading && <Link href='/login'>
-                            <a className="btn btn-danger px-4 text-white login-header-btn float-right">Login</a>
-                        </Link>
+                        !loading && 
+                        <>
+                            <Link href='/register'>
+                                <a className="btn btn-danger px-4 text-white login-header-btn float-right hiding-btn">Register</a>
+                            </Link>
+                            <Link href='/login'>
+                                <a className="btn btn-outline-danger px-4 login-header-btn float-right">Login</a>
+                            </Link> 
+                        </>
                     }
 
 

@@ -58,7 +58,7 @@ const Home = () => {
                 <h2 className='mb-3 ml-2 stays-heading'>{location ? `Rooms in ${location}` : 'All Rooms'}</h2>
 
                 <Link href='/search' >
-                    <a className='ml-2 back-to-search'>
+                    <a className='ml-2 back-to-search text-decoration-none'>
                         <i className='fa fa-arrow-left'></i> Back to Search
                 </a>
                 </Link>
